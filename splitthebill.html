@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+
+</head>
+
+<body>
+
+  <div class="navigation">
+    <div class="headtext">
+      <h1>
+        <span style="font-size:50px">S</span><span style="color:white">plit The Bill</span>
+      </h1>
+    </div>
+  </div>
+
+
+  <div class="left-container">
+    <div class="left-panel">
+      <div style="text-align:center">
+        <h1>Calculator</h1>
+      </div>
+      <div style="text-align:center">Find out how much each person has to pay.</div>
+      <div class="calculator-container">
+
+        <div><input type="number" class="no-spinners" id="amount" placeholder="Total Amount"></div>
+        <p></p>
+        <p  class="gap" id="wrongamount"></p>
+        <div><input type="number" class="no-spinners" id="people" placeholder="Number of People"></div>
+        <p></p>
+        <p id="wrongno"></p>
+        <div><input type="number" class="no-spinners" id="tip" placeholder="Tips"></div>
+        <p id="wrongtip"></p>
+        <p></p>
+        <div><button id="result" onclick="f3()">calculate</button></div>
+
+      </div>
+    </div>
+  </div>
+  <div class="right-container">
+    <div class="right-panel">Each person has to pay
+
+      <p id="rupee"></p>
+    </div>
+  </div>
+
+
+<script src="js/index.js"></script>
+  
+</body>
+
+</html>
